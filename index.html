@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unenäoline Linn</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .about {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #444;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Unenäoline Linn</h1>
+        <p>Kunstfotode seeria, kus linn ja mälestused sulanduvad üheks</p>
+        <a class="button" href="#shop">Vaata ja osta</a>
+    </header>
+
+    <div class="gallery">
+        <img src="photo1.jpg" alt="Unenäoline linnavaade 1">
+        <img src="photo2.jpg" alt="Unenäoline linnavaade 2">
+    </div>
+
+    <section class="about">
+        <h2>Seeria "Linnad unenäos"</h2>
+        <p>
+            Läbi mitmekihilise kujundikeele ja läbikumavate tekstuuride tekivad fotod, mis justkui ei eksisteerigi täielikult siin ega seal – need on killud unenäost, mille oleme peaaegu unustanud. 
+            Värvikad, pehmed ja samas salapärased kompositsioonid loovad visuaalse ruumi, kus tegelikkus ja fantaasia sulavad ühte.
+        </p>
+        <p>
+            Iga foto on saadaval piiratud tiraažis (30 tk), nummerdatud ja signeeritud. 
+            Prindid on kõrge kvaliteediga matile kunstipaberile trükitud, sobivad ideaalselt interjööri või kingituseks.
+        </p>
+    </section>
+
+    <footer id="shop">
+        <p>👉 Kirjuta mulle: <strong>kunst@sinunimi.ee</strong> või jälgi Instagramis: <strong>@linnaunenagu</strong></p>
+        <p>&copy; 2025 Sinu Nimi</p>
+    </footer>
+</body>
+</html>
